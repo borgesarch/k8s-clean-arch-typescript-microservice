@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: user
+spec:
+  selector:
+    matchLabels:
+      app: user
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: user
+    spec:
+      containers:
+      - name: user
+        image: 123654789456123654789/k8s-clean-arch-typescript-microservice:v11
+        env:
+        - name: ENVIRONMENT
+          value: PROD
+        - name: TYPEORM_HOST
+          value: postgres
+        - name: TYPEORM_USERNAME
+          value: ECC7AE2E763E2305955EC2DCBCC0EA0F5499F6F5
+        - name: TYPEORM_PASSWORD
+          value: ECC7AE2E763E2305955EC2DCBCC0EA0F5499F6F5
+        - name: TYPEORM_DATABASE
+          value: users
+        - name: TYPEORM_PORT
+          value: "5432"
+        - name: REALM_URL
+          value: https://keycloak/auth/realms/k8s-sso/
+        - name: CLIENT_ID
+          value : k8s-sso
+        ports:
+        - containerPort: 8080
