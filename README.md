@@ -1,5 +1,10 @@
-<img src="https://kubernetes.io/images/nav_logo.svg" width="300">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/1280px-Node.js_logo_2015.svg.png" width="200">
+
+
+<img src="https://th.bing.com/th/id/Rdf9c581c44ea9940d1f60d5cc4bc1752?rik=rLnrGxQ5XA8Uzg&pid=ImgRaw" width="100"><img src="https://image.flaticon.com/icons/png/512/919/919832.png" width="80"><img src="https://www.ictdemy.com/images/5728/nodejs_logo.png" width="80">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Oauth_logo.svg/1920px-Oauth_logo.svg.png" width="90">
+
+
+
 
 # k8s-clean-arch-typescript-microservice
 Clean architecture microservices in typescript and deployment In kubernetes.
