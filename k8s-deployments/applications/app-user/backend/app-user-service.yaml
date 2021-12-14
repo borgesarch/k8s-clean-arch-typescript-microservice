@@ -5,6 +5,6 @@ metadata:
 spec:
   ports:
   - port: 80
-    targetPort: 3333
+    targetPort: 3334
   selector:
     app: user
